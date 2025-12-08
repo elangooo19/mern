@@ -163,3 +163,31 @@
 // var total = arr. reduce((sum, num)=>(sum+num),0)
 // console.log(total);
 
+
+// var  evenCount  = arr.map((i) => {
+//     return i%2==0;
+//     console.log(i);
+// });
+// console.log(evenCount);
+
+// var student = [
+//    {name : "Raj",
+//     age : 20,
+//     marks: 90},
+//     {name:"mathu",marks:90},
+//     {name:"mathu",marks:93},
+//     {name:"mathu",marks:98},
+// ]
+// var studentMarks= student.filter((i)=>{
+//     return i.marks>90;
+// })
+// console.log(studentMarks);
+
+// //reduce 
+// var totalMarks = student.reduce((sum, student)=>(sum+student.marks),0)
+// console.log(totalMarks);
+// var avg = totalMarks/student.length;
+// console.log(avg);
+
+
+
