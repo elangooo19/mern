@@ -146,3 +146,34 @@ console.log(person.address.state);
 console.log(person["name"]);
 console.log(person["address"]["city"]);
 
+
+//for...in loop(index values)
+var arr = [1,2,3,4,5];
+for(var i in arr){
+    console.log(arr[i]);
+}
+//for...of(values)
+for(var i of arr){
+    console.log(i);
+}
+
+//forEach
+arr.forEach(function(i)=>{
+    console.log(i);
+});
+
+
+class person{
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    print(){
+        console.log(this.name,this.age);
+    }
+}
+var p1 = new person("Raj", 20);
+p1.print();
+
+
+
