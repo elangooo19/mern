@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="msg">hello</p>
+    <P class="item">one</P>
+    <p class="item">two</p> -->
+
+    <!-- <p id="msg">hello</p>
+    <button id="sumbit">shoe masseg</button> -->
+    <!-- <ul id="list"></ul> -->
+     <!-- <button id="submit" onclick="submitted()">click</button> -->
+      <!-- <p id=" name"></p>
+    <input tpye="text" id="inp" placeholder="Enter the name">
+    <button id="submit">submit</button> -->
+    <p id="num">0</p>
+    <button id="inc">Increment</button>
+    <button id="dec">dce</button>
+    <button id="reset">desect</button>
+
+    <script>
+        document.getElementById('inc').addEventListener('click',()=>{
+            count+=1;
+            document.getElementById('name').innnerText=count;
+        })
+         document.getElementById('dec').addEventListener('click',()=>{
+            count-=1;
+            document.getElementById('name').innnerText=count;
+        })
+         document.getElementById('reset').addEventListener('click',()=>{
+            count=0;
+            document.getElementById('name').innnerText=count;
+        })
+
+      /*  document.getElementById("submit").addEventListener("click",()=>{
+            var text=document.getElementById("inp").value;
+            document.getElementById("name").innerHTML=text; 
+        })/*
+     /*   var submitted = ()=>{
+            alert("Hi")
+        }/*
+       /* var li=document.createElement("li");
+        li.innerHTML="one";
+        document.getElementById("list").apppend(li);/*
+      /* <!-- document.getElementById("sumbit").addEventListener("click",()=>{
+            document.getElementById("msg").innerHTML="Hello cr777!!";
+        }); -->/*
+        /*<!-- document.getElementById('msg').style.color="red"
+        var item = document.getElementsByClassName('item');
+        item[0].style.color="green";
+        document.querySelector('#msg').style.backgroundColor="pink"
+        document.querySelector('.list').style.backgroundColor="blue"
+        document.querySelector('p').style.backgroundColor="black" -->*/
+        
+    </script> 
+</body>
+</html>
