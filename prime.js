@@ -191,3 +191,36 @@
 
 
 
+// //promise
+// const promise = new promise((resolve, reject) => {
+//     var success = true;
+//     if(success){
+//         resolve("success");
+//     }
+//     else{
+//         reject("failed");
+//     }2000
+    
+// })
+// promise.then((msg) => 
+//     console.log(msg)).catch((msg) =>
+//         console.log(msg));
+
+
+// const getData = async () => {
+//     return fetch("jsonplaceholder.typicode.com/todos/1'");
+// }
+// getData().then((res) => json()).then((data) => console.log(data)
+// ).catch((err) => console.log(err));
+
+// const getdata = async()=>{
+//     const res = await fetch("jsonplaceholder.typicode.com/todos/1");
+//     const data = await res.json();
+//     console.log(data);
+
+// }
+// getData();
+
+
+
+                                                                                                                                                                                                                                                                            
